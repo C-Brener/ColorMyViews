@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
             binding.boxThreeText,
             binding.boxFourText,
             binding.boxFiveText,
-            binding.root
+            binding.root,
         )
         for(item in clickableView){
             item.setBackgroundColor(Color.WHITE)
